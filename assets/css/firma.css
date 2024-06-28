@@ -1,0 +1,48 @@
+table {
+    width: 600px;
+    border: 1px solid #df203b;
+}
+td {
+    padding: 25px;
+}
+.logo {
+    width: 150px;
+    height: 180px;
+    padding-top: 15px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.contact {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+}
+.contact p:first-child {
+    font-size: 18px;
+    font-weight: bold;
+}
+.contact p:nth-child(2) {
+    font-size: 15px;
+    font-weight: bold;
+}
+.social-links {
+    margin: 0;
+    padding: 0;
+}
+.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.social-links li a img {
+    width: 32px;
+    height: 32px;
+}
+.no-underline a {
+    text-decoration: none;
+    color: inherit; /* Opcional: mantiene el color del texto */
+}
+.icon {
+    width: 32px;
+    filter: invert(32%) sepia(80%) saturate(1413%) hue-rotate(309deg) brightness(90%) contrast(88%);
+}
+
